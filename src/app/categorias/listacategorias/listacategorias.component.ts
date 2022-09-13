@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Categoria } from 'src/app/core/model';
 
 @Component({
   selector: 'app-listacategorias',
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./listacategorias.component.scss']
 })
 export class ListacategoriasComponent implements OnInit {
+
+  categorias: Categoria[] = [
+
+    {'id': 1, 'nomecategoria': 'Componentes/Desktop'}
+
+  ];
+
+  displayedColumns = ['nomecategoria'];
 
   constructor() { }
 

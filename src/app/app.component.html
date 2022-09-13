@@ -3,8 +3,8 @@
     <mat-icon>menu</mat-icon>
   </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item >Produtos</button>
-      <button mat-menu-item >Categorias</button>
+      <button mat-menu-item [routerLink]="['/produtos']">Produtos</button>
+      <button mat-menu-item [routerLink]="['/categorias']">Categorias</button>
     </mat-menu>
 
   <span>Estoque</span>
