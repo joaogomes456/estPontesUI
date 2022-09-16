@@ -1,13 +1,23 @@
-.table{
-  width: 80%;
-  height: auto;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  td{
-    padding-left: 11px;
+.produto{
+  height: 15%;
+  width: 25%;
+  margin-top: 2%;
+  margin-left: 4.8rem;
+  float:left;
+  background-color: #d8d8d8;
+  border: 0.5px solid #000000;
+
+  mat-card-title{
+    line-height: 1;
+    font-weight:400;
+    margin-bottom:1.2rem;
+    font-size: 20pt;
+    color: #000000;
   }
-  th{
-    padding-left: 11px;
+
+  mat-card-subtitle{
+    font-size: 16pt;
+    color: #000000;
   }
+
 }
