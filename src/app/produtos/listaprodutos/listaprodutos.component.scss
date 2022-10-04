@@ -1,4 +1,4 @@
-.produto{
+/*.produto{
   height: 15%;
   width: 25%;
   margin-top: 2%;
@@ -20,4 +20,18 @@
     color: #000000;
   }
 
+} */
+
+.table{
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  td{
+    padding-left: 11px;
+  }
+  th{
+    padding-left: 11px;
+  }
 }
